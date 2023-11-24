@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+<listeners>
+<listener class-name="utilityP1.ListernerBestBuy"></listener>
+</listeners>
+<parameter name="url" value="https://www.bestbuy.com/"></parameter>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     
+      <class name="testP1.TC0001__SignUpP1Positive"/>
+      <class name="testP1.TC0002__LoginP1Positive"/> 
+      <class name="testP1.TC0003__urlverify"/> 
+      <class name="testP1.TC0004__LinkVerification"/>
+      <class name="testP1.TC0005__TitleVerify"/>
+       <class name="testP1.TC0006__SAddCartTest"/>
+       <class name="testP1.TC0007__DeptAddtoCart"/>
+       <class name="testP1.TC0008__BrandAddtoCart"/>
+       <class name="testP1.TC0009__AddCartCheckoutandPayment"/>
+       <class name="testP1.TC0010__NegSign"/>
+       <class name="testP1.TC0011__NegLogin"/>
+       <class name="testP1.TC0012__Negcheckout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

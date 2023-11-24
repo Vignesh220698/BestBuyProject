@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="url" value="https://www.bestbuy.com/"/>
+  <listeners>
+    <listener class-name="utilityP1.ListernerBestBuy"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="2">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testP1.TC0009__AddCartCheckoutandPayment">
+        <methods>
+          <include name="close"/>
+          <include name="Launcbrowser"/>
+          <include name="checkoutPay"/>
+        </methods>
+      </class> <!-- testP1.TC0009__AddCartCheckoutandPayment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
