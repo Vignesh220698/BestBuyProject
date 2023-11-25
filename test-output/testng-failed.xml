@@ -8,13 +8,13 @@
   <test thread-count="5" name="Test(failed)" verbose="2">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testP1.TC0009__AddCartCheckoutandPayment">
+      <class name="testP1.TC0004__LinkVerification">
         <methods>
           <include name="close"/>
+          <include name="linkverify"/>
           <include name="Launcbrowser"/>
-          <include name="checkoutPay"/>
         </methods>
-      </class> <!-- testP1.TC0009__AddCartCheckoutandPayment -->
+      </class> <!-- testP1.TC0004__LinkVerification -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

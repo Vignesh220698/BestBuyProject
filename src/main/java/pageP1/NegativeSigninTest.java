@@ -13,10 +13,10 @@ public class NegativeSigninTest extends ProjectBaseP1{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void neSigin() {
+	public void neSigin() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Vignesh");
 		driver.findElement(By.xpath("//button[text()='Create an Account']")).click();
-		
+		Thread.sleep(3000);
 		String source1=driver.getPageSource();
 		
 		if(source1.contains("Please enter your first name.")) {
