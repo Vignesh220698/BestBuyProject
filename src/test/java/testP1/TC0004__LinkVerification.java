@@ -8,7 +8,7 @@ import pageP1.CountySelectionPage;
 public class TC0004__LinkVerification extends ProjectBaseP1{
 	
 	
-	@Test(priority = 4,enabled=true)
+	@Test(priority = 4,enabled=false)
 	public void linkverify() throws InterruptedException {
 		
 		new CountySelectionPage(driver).

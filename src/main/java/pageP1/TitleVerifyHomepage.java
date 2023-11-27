@@ -14,14 +14,14 @@ public class TitleVerifyHomepage extends ProjectBaseP1{
 	}
 
 	public void verifytitle() throws InterruptedException {
-		driver.findElement(By.xpath("//a[text()='Black Friday Deals']")).click();
+		driver.findElement(By.xpath("//a[text()='Cyber Deals']")).click();
 
 		String title=driver.getTitle();
 
-		if(title.contains("Black Friday")) {
-			System.out.println("Black Friday title verified");
+		if(title.contains("with Cyber Savings Events.")) {
+			System.out.println("Cyber Deals title verified");
 		}else {
-			System.out.println("Black Friday title  not verified");
+			System.out.println("Cyber Deals title  not verified");
 		}
          Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Deal of the Day']")).click();
