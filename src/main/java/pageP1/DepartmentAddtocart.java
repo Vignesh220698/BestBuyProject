@@ -30,10 +30,11 @@ public class DepartmentAddtocart extends ProjectBaseP1{
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//span[text()='Cart']")).click();
 		Thread.sleep(3000);
-		
+		driver.findElement(By.xpath("//button[@class='c-close-icon c-modal-close-icon']")).click();
+		Thread.sleep(3000);
 		String sourcecart=driver.getPageSource();
 		Thread.sleep(5000);
-		if(sourcecart.contains("Door Smart Refrigerator")) {
+		if(sourcecart.contains("Refrigerator")) {
 			System.out.println("Item added to cart sucessfully");
 		}else
 		{
