@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-28T09:23:15 IST" name="Suite" finished-at="2023-11-28T09:34:09 IST" duration-ms="653458">
+  <suite started-at="2023-11-28T14:56:47 IST" name="Suite" finished-at="2023-11-28T15:09:12 IST" duration-ms="745443">
     <groups>
     </groups>
-    <test started-at="2023-11-28T09:23:15 IST" name="Test" finished-at="2023-11-28T09:34:09 IST" duration-ms="653458">
+    <test started-at="2023-11-28T14:56:47 IST" name="Test" finished-at="2023-11-28T15:09:12 IST" duration-ms="745443">
       <class name="testP1.TC0010__NegSign">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T09:32:40 IST" name="Launcbrowser" finished-at="2023-11-28T09:32:43 IST" duration-ms="3096" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T15:08:02 IST" name="Launcbrowser" finished-at="2023-11-28T15:08:06 IST" duration-ms="3913" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Negs()[pri:10, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T09:32:43 IST" name="Negs" finished-at="2023-11-28T09:33:28 IST" duration-ms="44402" status="PASS">
+        <test-method signature="Negs()[pri:10, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T15:08:06 IST" name="Negs" finished-at="2023-11-28T15:08:33 IST" duration-ms="26659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Negs -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T09:33:28 IST" name="close" finished-at="2023-11-28T09:33:28 IST" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0010__NegSign@b86de0d]" started-at="2023-11-28T15:08:33 IST" name="close" finished-at="2023-11-28T15:08:34 IST" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0010__NegSign -->
       <class name="testP1.TC0005__TitleVerify">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T09:25:32 IST" name="Launcbrowser" finished-at="2023-11-28T09:25:36 IST" duration-ms="3261" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T14:59:34 IST" name="Launcbrowser" finished-at="2023-11-28T14:59:38 IST" duration-ms="3949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Titlverify()[pri:5, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T09:25:36 IST" name="Titlverify" finished-at="2023-11-28T09:26:22 IST" duration-ms="46185" status="PASS">
+        <test-method signature="Titlverify()[pri:5, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T14:59:38 IST" name="Titlverify" finished-at="2023-11-28T15:00:27 IST" duration-ms="48458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Titlverify -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T09:26:22 IST" name="close" finished-at="2023-11-28T09:26:23 IST" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0005__TitleVerify@4c5ae43b]" started-at="2023-11-28T15:00:27 IST" name="close" finished-at="2023-11-28T15:00:28 IST" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0005__TitleVerify -->
       <class name="testP1.TC0012__Negcheckout">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T09:33:58 IST" name="Launcbrowser" finished-at="2023-11-28T09:34:01 IST" duration-ms="2876" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T15:09:00 IST" name="Launcbrowser" finished-at="2023-11-28T15:09:04 IST" duration-ms="3635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,17 +75,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="NeChe()[pri:12, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T09:34:01 IST" name="NeChe" finished-at="2023-11-28T09:34:08 IST" duration-ms="7302" status="PASS">
+        <test-method signature="NeChe()[pri:12, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T15:09:04 IST" name="NeChe" finished-at="2023-11-28T15:09:11 IST" duration-ms="7024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NeChe -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T09:34:08 IST" name="close" finished-at="2023-11-28T09:34:09 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0012__Negcheckout@747f281]" started-at="2023-11-28T15:09:11 IST" name="close" finished-at="2023-11-28T15:09:12 IST" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0012__Negcheckout -->
       <class name="testP1.TC0008__BrandAddtoCart">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T09:29:10 IST" name="Launcbrowser" finished-at="2023-11-28T09:29:14 IST" duration-ms="3575" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T15:03:08 IST" name="Launcbrowser" finished-at="2023-11-28T15:03:11 IST" duration-ms="2851" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,17 +101,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="BrandAdd()[pri:8, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T09:29:14 IST" name="BrandAdd" finished-at="2023-11-28T09:29:57 IST" duration-ms="42862" status="PASS">
+        <test-method signature="BrandAdd()[pri:8, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T15:03:11 IST" name="BrandAdd" finished-at="2023-11-28T15:04:07 IST" duration-ms="55754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrandAdd -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T09:29:57 IST" name="close" finished-at="2023-11-28T09:29:57 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0008__BrandAddtoCart@35b74c5c]" started-at="2023-11-28T15:04:07 IST" name="close" finished-at="2023-11-28T15:04:08 IST" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0008__BrandAddtoCart -->
       <class name="testP1.TC0009__AddCartCheckoutandPayment">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T09:29:57 IST" name="Launcbrowser" finished-at="2023-11-28T09:30:00 IST" duration-ms="3258" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T15:04:08 IST" name="Launcbrowser" finished-at="2023-11-28T15:04:10 IST" duration-ms="2179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,21 +127,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="checkoutPay()[pri:9, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T09:30:00 IST" name="checkoutPay" finished-at="2023-11-28T09:32:39 IST" duration-ms="159140" status="PASS">
+        <test-method signature="checkoutPay()[pri:9, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T15:04:10 IST" name="checkoutPay" finished-at="2023-11-28T15:08:01 IST" duration-ms="230846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutPay -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T09:32:40 IST" name="close" finished-at="2023-11-28T09:32:40 IST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0009__AddCartCheckoutandPayment@2e570ded]" started-at="2023-11-28T15:08:01 IST" name="close" finished-at="2023-11-28T15:08:02 IST" duration-ms="872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0009__AddCartCheckoutandPayment -->
       <class name="testP1.TC0002__LoginP1Positive">
-        <test-method is-config="true" signature="FileRead()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:23:15 IST" name="FileRead" finished-at="2023-11-28T09:23:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="FileRead()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:56:47 IST" name="FileRead" finished-at="2023-11-28T14:56:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FileRead -->
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:24:21 IST" name="Launcbrowser" finished-at="2023-11-28T09:24:24 IST" duration-ms="3089" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:57:58 IST" name="Launcbrowser" finished-at="2023-11-28T14:58:01 IST" duration-ms="3448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Register(java.lang.String,java.lang.String)[pri:2, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:24:24 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T09:24:49 IST" duration-ms="24263" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String)[pri:2, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:58:01 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T14:58:37 IST" duration-ms="35370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,11 +173,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:24:49 IST" name="close" finished-at="2023-11-28T09:24:49 IST" duration-ms="557" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:58:37 IST" name="close" finished-at="2023-11-28T14:58:38 IST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:24:49 IST" name="Launcbrowser" finished-at="2023-11-28T09:24:53 IST" duration-ms="3075" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:58:38 IST" name="Launcbrowser" finished-at="2023-11-28T14:58:42 IST" duration-ms="4596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Register(java.lang.String,java.lang.String)[pri:2, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:24:53 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T09:25:15 IST" duration-ms="22511" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String)[pri:2, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:58:42 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T14:59:18 IST" duration-ms="35173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,17 +209,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T09:25:15 IST" name="close" finished-at="2023-11-28T09:25:16 IST" duration-ms="1052" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0002__LoginP1Positive@3cce57c7]" started-at="2023-11-28T14:59:18 IST" name="close" finished-at="2023-11-28T14:59:19 IST" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0002__LoginP1Positive -->
       <class name="testP1.TC0001__SignUpP1Positive">
-        <test-method is-config="true" signature="ReadExcel()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:15 IST" name="ReadExcel" finished-at="2023-11-28T09:23:15 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="ReadExcel()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:56:47 IST" name="ReadExcel" finished-at="2023-11-28T14:56:47 IST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadExcel -->
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:18 IST" name="Launcbrowser" finished-at="2023-11-28T09:23:25 IST" duration-ms="7527" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:56:50 IST" name="Launcbrowser" finished-at="2023-11-28T14:56:59 IST" duration-ms="9406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Register(java.lang.String,java.lang.String)[pri:1, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:25 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T09:23:52 IST" duration-ms="26408" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String)[pri:1, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:56:59 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T14:57:26 IST" duration-ms="27045" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:52 IST" name="close" finished-at="2023-11-28T09:23:53 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:57:27 IST" name="close" finished-at="2023-11-28T14:57:27 IST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:53 IST" name="Launcbrowser" finished-at="2023-11-28T09:23:57 IST" duration-ms="3943" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:57:27 IST" name="Launcbrowser" finished-at="2023-11-28T14:57:31 IST" duration-ms="3245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,7 +271,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Register(java.lang.String,java.lang.String)[pri:1, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:23:57 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T09:24:20 IST" duration-ms="23868" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String)[pri:1, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:57:31 IST" name="Register" data-provider="getdata" finished-at="2023-11-28T14:57:57 IST" duration-ms="26181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,13 +287,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T09:24:21 IST" name="close" finished-at="2023-11-28T09:24:21 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0001__SignUpP1Positive@638ef7ed]" started-at="2023-11-28T14:57:57 IST" name="close" finished-at="2023-11-28T14:57:58 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0001__SignUpP1Positive -->
       <class name="testP1.TC0011__NegLogin">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T09:33:28 IST" name="Launcbrowser" finished-at="2023-11-28T09:33:32 IST" duration-ms="4111" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T15:08:34 IST" name="Launcbrowser" finished-at="2023-11-28T15:08:37 IST" duration-ms="3775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,17 +309,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="neLog()[pri:11, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T09:33:32 IST" name="neLog" finished-at="2023-11-28T09:33:57 IST" duration-ms="24772" status="PASS">
+        <test-method signature="neLog()[pri:11, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T15:08:37 IST" name="neLog" finished-at="2023-11-28T15:08:59 IST" duration-ms="21717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- neLog -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T09:33:57 IST" name="close" finished-at="2023-11-28T09:33:58 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0011__NegLogin@81d9a72]" started-at="2023-11-28T15:08:59 IST" name="close" finished-at="2023-11-28T15:09:00 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0011__NegLogin -->
       <class name="testP1.TC0007__DeptAddtoCart">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T09:28:02 IST" name="Launcbrowser" finished-at="2023-11-28T09:28:05 IST" duration-ms="3569" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T15:01:57 IST" name="Launcbrowser" finished-at="2023-11-28T15:02:02 IST" duration-ms="4620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,17 +335,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="DeptAdd()[pri:7, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T09:28:05 IST" name="DeptAdd" finished-at="2023-11-28T09:29:09 IST" duration-ms="64153" status="PASS">
+        <test-method signature="DeptAdd()[pri:7, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T15:02:02 IST" name="DeptAdd" finished-at="2023-11-28T15:03:07 IST" duration-ms="65600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeptAdd -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T09:29:10 IST" name="close" finished-at="2023-11-28T09:29:10 IST" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0007__DeptAddtoCart@3576ddc2]" started-at="2023-11-28T15:03:08 IST" name="close" finished-at="2023-11-28T15:03:08 IST" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0007__DeptAddtoCart -->
       <class name="testP1.TC0006__SAddCartTest">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T09:26:23 IST" name="Launcbrowser" finished-at="2023-11-28T09:26:26 IST" duration-ms="3259" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T15:00:28 IST" name="Launcbrowser" finished-at="2023-11-28T15:00:32 IST" duration-ms="4222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,17 +361,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="Sadd()[pri:6, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T09:26:26 IST" name="Sadd" finished-at="2023-11-28T09:28:00 IST" duration-ms="94280" status="PASS">
+        <test-method signature="Sadd()[pri:6, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T15:00:32 IST" name="Sadd" finished-at="2023-11-28T15:01:56 IST" duration-ms="83671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sadd -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T09:28:01 IST" name="close" finished-at="2023-11-28T09:28:02 IST" duration-ms="765" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0006__SAddCartTest@264f218]" started-at="2023-11-28T15:01:56 IST" name="close" finished-at="2023-11-28T15:01:57 IST" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testP1.TC0006__SAddCartTest -->
       <class name="testP1.TC0003__urlverify">
-        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T09:25:16 IST" name="Launcbrowser" finished-at="2023-11-28T09:25:20 IST" duration-ms="3174" status="PASS">
+        <test-method is-config="true" signature="Launcbrowser(java.lang.String,java.lang.String)[pri:0, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T14:59:19 IST" name="Launcbrowser" finished-at="2023-11-28T14:59:22 IST" duration-ms="3846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,11 +387,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launcbrowser -->
-        <test-method signature="URl()[pri:3, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T09:25:20 IST" name="URl" finished-at="2023-11-28T09:25:31 IST" duration-ms="11604" status="PASS">
+        <test-method signature="URl()[pri:3, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T14:59:22 IST" name="URl" finished-at="2023-11-28T14:59:33 IST" duration-ms="10881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- URl -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T09:25:32 IST" name="close" finished-at="2023-11-28T09:25:32 IST" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testP1.TC0003__urlverify@1cf56a1c]" started-at="2023-11-28T14:59:34 IST" name="close" finished-at="2023-11-28T14:59:34 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
