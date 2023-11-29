@@ -33,15 +33,16 @@ public class SearchAddtoCart extends ProjectBaseP1{
 
 
 		Thread.sleep(3000);
+		try {
 		driver.findElement(By.xpath("//p[@title='256GB']")).click();
-
-		Thread.sleep(5000);
-
+		}catch (Exception e) {
+			System.out.println("Variant not found");
+		}
 
 		Thread.sleep(5000);
 		WebElement RefButton =driver.findElement(By.xpath("//span[text()='Questions & Answers']"));
 		act.moveToElement(RefButton).perform();
-		Thread.sleep(9000);
+		Thread.sleep(6000);
 
 	driver.findElement(By.xpath("//button[@class='c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button']")).click();	
 

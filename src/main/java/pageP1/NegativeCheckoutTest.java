@@ -16,9 +16,9 @@ public class NegativeCheckoutTest extends ProjectBaseP1{
 		String NegTest=driver.getPageSource();
 		
 		if(NegTest.contains(" Check out")) {
-			System.out.println("Negative Login fail");
+			System.out.println("Negative checkout fail");
 		}else {
-			System.out.println("Negative Login Pass");
+			System.out.println("Negative checkout Pass");
 		}
 	}
 }

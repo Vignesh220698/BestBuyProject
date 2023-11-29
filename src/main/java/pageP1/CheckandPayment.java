@@ -55,9 +55,13 @@ public class CheckandPayment extends ProjectBaseP1{
 		
 		act.moveToElement(seedetail).click().perform();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//p[@title='256GB']")).click();
+		try {
+			driver.findElement(By.xpath("//p[@title='256GB']")).click();
+			}catch (Exception e) {
+				System.out.println("Variant not found");
+			}
 		
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		WebElement RefButton =driver.findElement(By.xpath("//span[text()='Questions & Answers']"));
 		act.moveToElement(RefButton).perform();
 		

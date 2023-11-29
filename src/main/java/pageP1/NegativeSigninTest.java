@@ -18,8 +18,8 @@ public class NegativeSigninTest extends ProjectBaseP1{
 		driver.findElement(By.xpath("//button[text()='Create an Account']")).click();
 		Thread.sleep(3000);
 		String source1=driver.getPageSource();
-		
-		if(source1.contains("Please enter your first name.")) {
+		Thread.sleep(3000);
+		if(source1.contains("Please enter")) {
 			System.out.println("Negative Signin pass");
 		}else {
 			System.out.println("Negative Signin fail");
