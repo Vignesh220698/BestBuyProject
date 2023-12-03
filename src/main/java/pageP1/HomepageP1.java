@@ -19,16 +19,16 @@ public class HomepageP1 extends ProjectBaseP1{
 
 	@FindBy(xpath ="//a[text()='Create Account']")
 	WebElement createaccountbutton;
-	
-	
-	
+
+
+
 	public HomepageP1(WebDriver driver) {
 		this.driver= driver;
 		PageFactory.initElements(driver,this);		
 	}
-	
+
 	public CreateAccountPage createaccount() throws InterruptedException{
-		
+
 		Thread.sleep(7000);
 		click(accountbutton);
 		click(createaccountbutton);
@@ -40,69 +40,77 @@ public class HomepageP1 extends ProjectBaseP1{
 		Thread.sleep(7000);
 		click(accountbutton);
 		click(SignButton);
-		
+
 		return new SigninPageP1(driver);
 
 	}
 	public   LinkverifyinHomepage link(){
-		
+
 		return new LinkverifyinHomepage(driver);
 
 	}
-	
-public   TitleVerifyHomepage Title(){
-		
+
+	public   TitleVerifyHomepage Title(){
+
 		return new TitleVerifyHomepage(driver);
 
 	}
 
-public  SearchAddtoCart SAddcart(){
-	
-	return new SearchAddtoCart(driver);
+	public  SearchAddtoCart SAddcart(){
 
-}
-public DepartmentAddtocart  DAddcart(){
-	
-	driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
-	return new DepartmentAddtocart(driver) ;
+		return new SearchAddtoCart(driver);
 
-}
+	}
+	public DepartmentAddtocart  DAddcart(){
 
-public BrandAddtocart  BAddcart(){
-	
-	driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
-	return new BrandAddtocart(driver) ;
+		driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
+		return new DepartmentAddtocart(driver) ;
 
-}
+	}
 
-public CheckandPayment Checkout(){
-	
-	driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
-	return new CheckandPayment(driver);
+	public BrandAddtocart  BAddcart(){
 
-}
+		driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
+		return new BrandAddtocart(driver) ;
 
-    public NegativeSigninTest Negsignup() throws InterruptedException {
-    	Thread.sleep(7000);
-    	click(accountbutton);
+	}
+
+	public CheckandPayment Checkout(){
+
+		driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']")).click();
+		return new CheckandPayment(driver);
+
+	}
+
+	public NegativeSigninTest Negsignup() throws InterruptedException {
+		Thread.sleep(7000);
+		click(accountbutton);
 		click(createaccountbutton);
-    	
-    	return new NegativeSigninTest(driver);
-    }
 
- public NegativeLoginTest Neglogin() throws InterruptedException {
-	 Thread.sleep(7000);
-	 click(accountbutton);
+		return new NegativeSigninTest(driver);
+	}
+
+	public NegativeLoginTest Neglogin() throws InterruptedException {
+		Thread.sleep(7000);
+		click(accountbutton);
 		click(SignButton);
-    	
-	 return new NegativeLoginTest(driver);
-    }
 
- public NegativeCheckoutTest Negcheckout() {
-	 
-	 return new NegativeCheckoutTest(driver);
- 	
- }
+		return new NegativeLoginTest(driver);
+	}
+
+	public NegativeCheckoutTest Negcheckout() {
+
+		return new NegativeCheckoutTest(driver);
+
+	}
+	
+	public  NegLoginstests NegloginTest() throws InterruptedException {
+		Thread.sleep(7000);
+		click(accountbutton);
+		click(SignButton);
+		return new NegLoginstests(driver);
+		
+	}
 
 
 }

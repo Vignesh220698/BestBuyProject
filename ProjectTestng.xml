@@ -21,6 +21,7 @@
        <class name="testP1.TC0010__NegSign"/>
        <class name="testP1.TC0011__NegLogin"/>
        <class name="testP1.TC0012__Negcheckout"/>
+       <class name="testP1.TC0013__NegativeLoginsTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
