@@ -49,7 +49,7 @@ public class UtilitiyP1 {
 	
 	public Object[][] ReadExcel(String Excelfile) throws IOException {
 
-		XSSFWorkbook book= new XSSFWorkbook("C:\\Users\\VIJAYAKUMAR P\\eclipse-workspace\\ProjectBestBuy\\ExcelFileProjectSignup.xlsx");
+		XSSFWorkbook book= new XSSFWorkbook("./ExcelFileProjectSignup.xlsx");
 		XSSFSheet sheet = book.getSheet(Excelfile);
 
 		int rowcount= sheet.getLastRowNum();
