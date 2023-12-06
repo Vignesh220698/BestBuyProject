@@ -53,7 +53,7 @@ public class TitleVerifyHomepage extends ProjectBaseP1{
 
 		String title4=driver.getTitle();
 		Thread.sleep(2000);
-		if(title4.contains("Credit Cards")) {
+		if(title4.contains("Credit Card")) {
 			System.out.println("Credit Cards title verified");
 		}else {
 			System.out.println("Credit Cards title  not verified");

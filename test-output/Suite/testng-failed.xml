@@ -8,20 +8,13 @@
   <test thread-count="5" name="Test(failed)" verbose="2">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testP1.TC0009__AddCartCheckoutandPayment">
+      <class name="testP1.TC0007__DeptAddtoCart">
         <methods>
+          <include name="DeptAdd"/>
           <include name="close"/>
           <include name="Launcbrowser"/>
-          <include name="checkoutPay"/>
         </methods>
-      </class> <!-- testP1.TC0009__AddCartCheckoutandPayment -->
-      <class name="testP1.TC0006__SAddCartTest">
-        <methods>
-          <include name="close"/>
-          <include name="Sadd"/>
-          <include name="Launcbrowser"/>
-        </methods>
-      </class> <!-- testP1.TC0006__SAddCartTest -->
+      </class> <!-- testP1.TC0007__DeptAddtoCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

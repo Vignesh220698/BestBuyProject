@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods,   17 passed</span>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0007__DeptAddtoCart" class="method navigator-link" hash-for-method="DeptAdd">DeptAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +122,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0007__DeptAddtoCart" class="method navigator-link" hash-for-method="DeptAdd">DeptAdd</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0013__NegativeLoginsTests" class="method navigator-link" hash-for-method="NLoginT(Vignesh123@gmail, Vignesh@)">NLoginT(Vignesh123@gmail, Vignesh@)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,12 +137,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0013__NegativeLoginsTests" class="method navigator-link" hash-for-method="NLoginT(Vignesh123@gmail, Vignesh@)">NLoginT(Vignesh123@gmail, Vignesh@)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0012__Negcheckout" class="method navigator-link" hash-for-method="NeChe">NeChe</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0012__Negcheckout" class="method navigator-link" hash-for-method="NeChe">NeChe</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0014__NegativeCreateacc" class="method navigator-link" hash-for-method="NegativeTest(S, V, vign@gmail, Vig123, Vig, 876589)">NegativeTest(S, V, vign@gmail, Vig123, Vig, 876589)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0014__NegativeCreateacc" class="method navigator-link" hash-for-method="NegativeTest(vignesh, S, Vignesh, Vig123, Vig123, 12)">NegativeTest(vignesh, S, Vignesh, Vig123, Vig123, 12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0014__NegativeCreateacc" class="method navigator-link" hash-for-method="NegativeTest(vignesh, s, vign.com, Vig123, Vig, 87685439)">NegativeTest(vignesh, s, vign.com, Vig123, Vig, 87685439)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,22 +162,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0001__SignUpP1Positive" class="method navigator-link" hash-for-method="Register(Vignesh123@gmail.com, Vignesh@123)">Register(Vignesh123@gmail.com, Vignesh@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testP1.TC0002__LoginP1Positive" class="method navigator-link" hash-for-method="Register(, )">Register(, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0002__LoginP1Positive" class="method navigator-link" hash-for-method="Register(Vignesh123@gmail.com, Vignesh@123)">Register(Vignesh123@gmail.com, Vignesh@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0001__SignUpP1Positive" class="method navigator-link" hash-for-method="Register(, )">Register(, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testP1.TC0001__SignUpP1Positive" class="method navigator-link" hash-for-method="Register(, )">Register(, )</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0001__SignUpP1Positive" class="method navigator-link" hash-for-method="Register(Vignesh123@gmail.com, Vignesh@123)">Register(Vignesh123@gmail.com, Vignesh@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testP1.TC0002__LoginP1Positive" class="method navigator-link" hash-for-method="Register(Vignesh123@gmail.com, Vignesh@123)">Register(Vignesh123@gmail.com, Vignesh@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -198,6 +222,76 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testP1.TC0007__DeptAddtoCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeptAdd">
+                  </a> <!-- DeptAdd -->
+                  <span class="method-name">DeptAdd</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&quot; type=&quot;button&quot; data-sku-id=&quot;6534858&quot; data-button-state=&quot;ADD_TO_CART&quot; style=&quot;padding:0 8px&quot;&gt;...&lt;/button&gt; is not clickable at point (1105, 544). Other element would receive the click: &lt;div id=&quot;survey_window&quot; class=&quot;modal fade modal-open in&quot; role=&quot;dialog&quot; style=&quot;margin-top: 155px; display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=119.0.6045.200)
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f18895def720a9d43dcde80cc9bba723, clickElement {id=8550AA07D611828799F3A044A8CD4CDA_element_179}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\VIJAYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51943/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f18895def720a9d43dcde80cc9bba723)] -&gt; xpath: (//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;])[1]]
+Session ID: f18895def720a9d43dcde80cc9bba723
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageP1.DepartmentAddtocart.Deptaddtocart(DepartmentAddtocart.java:27)
+	at testP1.TC0007__DeptAddtoCart.DeptAdd(TC0007__DeptAddtoCart.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -255,21 +349,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testP1.TC0010__NegSign</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Negs">
-                  </a> <!-- Negs -->
-                  <span class="method-name">Negs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testP1.TC0004__LinkVerification</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -278,6 +357,21 @@
                   <a name="linkverify">
                   </a> <!-- linkverify -->
                   <span class="method-name">linkverify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testP1.TC0010__NegSign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negs">
+                  </a> <!-- Negs -->
+                  <span class="method-name">Negs</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -330,21 +424,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testP1.TC0007__DeptAddtoCart</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DeptAdd">
-                  </a> <!-- DeptAdd -->
-                  <span class="method-name">DeptAdd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testP1.TC0009__AddCartCheckoutandPayment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -360,23 +439,55 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testP1.TC0001__SignUpP1Positive</span>
+              <span class="class-name">testP1.TC0014__NegativeCreateacc</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Register(Vignesh123@gmail.com, Vignesh@123)">
-                  </a> <!-- Register(Vignesh123@gmail.com, Vignesh@123) -->
-                  <span class="method-name">Register</span>
-                  <span class="parameters">(Vignesh123@gmail.com,Vignesh@123)</span>
+                  <a name="NegativeTest(S, V, vign@gmail, Vig123, Vig, 876589)">
+                  </a> <!-- NegativeTest(S, V, vign@gmail, Vig123, Vig, 876589) -->
+                  <span class="method-name">NegativeTest</span>
+                  <span class="parameters">(S,V,vign@gmail,Vig123,Vig,876589)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeTest(vignesh, S, Vignesh, Vig123, Vig123, 12)">
+                  </a> <!-- NegativeTest(vignesh, S, Vignesh, Vig123, Vig123, 12) -->
+                  <span class="method-name">NegativeTest</span>
+                  <span class="parameters">(vignesh,S,Vignesh,Vig123,Vig123,12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeTest(vignesh, s, vign.com, Vig123, Vig, 87685439)">
+                  </a> <!-- NegativeTest(vignesh, s, vign.com, Vig123, Vig, 87685439) -->
+                  <span class="method-name">NegativeTest</span>
+                  <span class="parameters">(vignesh,s,vign.com,Vig123,Vig,87685439)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testP1.TC0001__SignUpP1Positive</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="Register(, )">
                   </a> <!-- Register(, ) -->
                   <span class="method-name">Register</span>
                   <span class="parameters">(,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register(Vignesh123@gmail.com, Vignesh@123)">
+                  </a> <!-- Register(Vignesh123@gmail.com, Vignesh@123) -->
+                  <span class="method-name">Register</span>
+                  <span class="parameters">(Vignesh123@gmail.com,Vignesh@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -404,6 +515,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="NLoginT(Vignesh123@gmail, Vignesh@)">
+                  </a> <!-- NLoginT(Vignesh123@gmail, Vignesh@) -->
+                  <span class="method-name">NLoginT</span>
+                  <span class="parameters">(Vignesh123@gmail,Vignesh@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="NLoginT(Vignesh123.com, Vignesh123)">
                   </a> <!-- NLoginT(Vignesh123.com, Vignesh123) -->
                   <span class="method-name">NLoginT</span>
@@ -416,14 +535,6 @@
                   </a> <!-- NLoginT(Vignesh123gmail.com, Vignesh) -->
                   <span class="method-name">NLoginT</span>
                   <span class="parameters">(Vignesh123gmail.com,Vignesh)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="NLoginT(Vignesh123@gmail, Vignesh@)">
-                  </a> <!-- NLoginT(Vignesh123@gmail, Vignesh@) -->
-                  <span class="method-name">NLoginT</span>
-                  <span class="parameters">(Vignesh123@gmail,Vignesh@)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -458,6 +569,7 @@
       &lt;class name=&quot;testP1.TC0011__NegLogin&quot;/&gt;
       &lt;class name=&quot;testP1.TC0012__Negcheckout&quot;/&gt;
       &lt;class name=&quot;testP1.TC0013__NegativeLoginsTests&quot;/&gt;
+      &lt;class name=&quot;testP1.TC0014__NegativeCreateacc&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -471,7 +583,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (13 classes)</span>
+                <span class="test-name">Test (14 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -497,80 +609,92 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(17);
+data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkoutPay')
 data.setCell(0, 2, 'testP1.TC0009__AddCartCheckoutandPayment')
-data.setCell(0, 3, 210086);
+data.setCell(0, 3, 198162);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'linkverify')
 data.setCell(1, 2, 'testP1.TC0004__LinkVerification')
-data.setCell(1, 3, 153325);
+data.setCell(1, 3, 99147);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Sadd')
 data.setCell(2, 2, 'testP1.TC0006__SAddCartTest')
-data.setCell(2, 3, 82593);
+data.setCell(2, 3, 93817);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DeptAdd')
-data.setCell(3, 2, 'testP1.TC0007__DeptAddtoCart')
-data.setCell(3, 3, 62805);
+data.setCell(3, 1, 'BrandAdd')
+data.setCell(3, 2, 'testP1.TC0008__BrandAddtoCart')
+data.setCell(3, 3, 48965);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'BrandAdd')
-data.setCell(4, 2, 'testP1.TC0008__BrandAddtoCart')
-data.setCell(4, 3, 40482);
+data.setCell(4, 1, 'Titlverify')
+data.setCell(4, 2, 'testP1.TC0005__TitleVerify')
+data.setCell(4, 3, 46313);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'NLoginT')
-data.setCell(5, 2, 'testP1.TC0013__NegativeLoginsTests')
-data.setCell(5, 3, 39357);
+data.setCell(5, 1, 'DeptAdd')
+data.setCell(5, 2, 'testP1.TC0007__DeptAddtoCart')
+data.setCell(5, 3, 36904);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Titlverify')
-data.setCell(6, 2, 'testP1.TC0005__TitleVerify')
-data.setCell(6, 3, 38141);
+data.setCell(6, 1, 'Register')
+data.setCell(6, 2, 'testP1.TC0001__SignUpP1Positive')
+data.setCell(6, 3, 29263);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'NLoginT')
-data.setCell(7, 2, 'testP1.TC0013__NegativeLoginsTests')
-data.setCell(7, 3, 36761);
+data.setCell(7, 1, 'Negs')
+data.setCell(7, 2, 'testP1.TC0010__NegSign')
+data.setCell(7, 3, 29195);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Negs')
-data.setCell(8, 2, 'testP1.TC0010__NegSign')
-data.setCell(8, 3, 27665);
+data.setCell(8, 1, 'NegativeTest')
+data.setCell(8, 2, 'testP1.TC0014__NegativeCreateacc')
+data.setCell(8, 3, 28964);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'NLoginT')
 data.setCell(9, 2, 'testP1.TC0013__NegativeLoginsTests')
-data.setCell(9, 3, 27099);
+data.setCell(9, 3, 28754);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'neLog')
-data.setCell(10, 2, 'testP1.TC0011__NegLogin')
-data.setCell(10, 3, 23141);
+data.setCell(10, 1, 'NLoginT')
+data.setCell(10, 2, 'testP1.TC0013__NegativeLoginsTests')
+data.setCell(10, 3, 26688);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Register')
-data.setCell(11, 2, 'testP1.TC0001__SignUpP1Positive')
-data.setCell(11, 3, 20970);
+data.setCell(11, 1, 'NLoginT')
+data.setCell(11, 2, 'testP1.TC0013__NegativeLoginsTests')
+data.setCell(11, 3, 26544);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Register')
-data.setCell(12, 2, 'testP1.TC0001__SignUpP1Positive')
-data.setCell(12, 3, 20830);
+data.setCell(12, 1, 'NegativeTest')
+data.setCell(12, 2, 'testP1.TC0014__NegativeCreateacc')
+data.setCell(12, 3, 25609);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Register')
-data.setCell(13, 2, 'testP1.TC0002__LoginP1Positive')
-data.setCell(13, 3, 18879);
+data.setCell(13, 1, 'NegativeTest')
+data.setCell(13, 2, 'testP1.TC0014__NegativeCreateacc')
+data.setCell(13, 3, 24501);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'Register')
 data.setCell(14, 2, 'testP1.TC0002__LoginP1Positive')
-data.setCell(14, 3, 18301);
+data.setCell(14, 3, 24355);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'URl')
-data.setCell(15, 2, 'testP1.TC0003__urlverify')
-data.setCell(15, 3, 12769);
+data.setCell(15, 1, 'Register')
+data.setCell(15, 2, 'testP1.TC0001__SignUpP1Positive')
+data.setCell(15, 3, 21842);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'NeChe')
-data.setCell(16, 2, 'testP1.TC0012__Negcheckout')
-data.setCell(16, 3, 6095);
+data.setCell(16, 1, 'neLog')
+data.setCell(16, 2, 'testP1.TC0011__NegLogin')
+data.setCell(16, 3, 20241);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Register')
+data.setCell(17, 2, 'testP1.TC0002__LoginP1Positive')
+data.setCell(17, 3, 19701);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'URl')
+data.setCell(18, 2, 'testP1.TC0003__urlverify')
+data.setCell(18, 3, 8933);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'NeChe')
+data.setCell(19, 2, 'testP1.TC0012__Negcheckout')
+data.setCell(19, 3, 8362);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -603,260 +727,308 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testP1.TC0002__LoginP1Positive</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">FileRead</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0013__NegativeLoginsTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">Exceldata</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testP1.TC0002__LoginP1Positive</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">FileRead</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testP1.TC0014__NegativeCreateacc</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0001__SignUpP1Positive</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">1409 ms</span>
+                <span class="method-start">2554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Register(Vignesh123@gmail.com, Vignesh@123)</span>
-                <span class="method-start">5517 ms</span>
+                <span class="method-start">9262 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">26762 ms</span>
+                <span class="method-start">38828 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">27252 ms</span>
+                <span class="method-start">39220 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Register(, )</span>
-                <span class="method-start">30046 ms</span>
+                <span class="method-start">42325 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">51090 ms</span>
+                <span class="method-start">64396 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0002__LoginP1Positive</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">51609 ms</span>
+                <span class="method-start">65001 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Register(Vignesh123@gmail.com, Vignesh@123)</span>
-                <span class="method-start">54506 ms</span>
+                <span class="method-start">67852 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">73014 ms</span>
+                <span class="method-start">92434 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">73347 ms</span>
+                <span class="method-start">93176 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Register(, )</span>
-                <span class="method-start">79505 ms</span>
+                <span class="method-start">96690 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">98594 ms</span>
+                <span class="method-start">116599 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0003__urlverify</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">98858 ms</span>
+                <span class="method-start">117211 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">URl</span>
-                <span class="method-start">103430 ms</span>
+                <span class="method-start">120476 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">116763 ms</span>
+                <span class="method-start">130076 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0004__LinkVerification</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">117001 ms</span>
+                <span class="method-start">130398 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">linkverify</span>
-                <span class="method-start">119136 ms</span>
+                <span class="method-start">133219 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">272662 ms</span>
+                <span class="method-start">232601 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0005__TitleVerify</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">273127 ms</span>
+                <span class="method-start">233303 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Titlverify</span>
-                <span class="method-start">276037 ms</span>
+                <span class="method-start">237477 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">314393 ms</span>
+                <span class="method-start">284119 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0006__SAddCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">314596 ms</span>
+                <span class="method-start">284630 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Sadd</span>
-                <span class="method-start">318082 ms</span>
+                <span class="method-start">288058 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">400892 ms</span>
+                <span class="method-start">382130 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0007__DeptAddtoCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">401175 ms</span>
+                <span class="method-start">382549 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">DeptAdd</span>
-                <span class="method-start">404075 ms</span>
+                <span class="method-start">386671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">467119 ms</span>
+                <span class="method-start">424070 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0008__BrandAddtoCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">467420 ms</span>
+                <span class="method-start">424489 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">BrandAdd</span>
-                <span class="method-start">470070 ms</span>
+                <span class="method-start">427307 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">510829 ms</span>
+                <span class="method-start">476522 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0009__AddCartCheckoutandPayment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">511125 ms</span>
+                <span class="method-start">476859 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkoutPay</span>
-                <span class="method-start">513956 ms</span>
+                <span class="method-start">480281 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">724200 ms</span>
+                <span class="method-start">678675 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0010__NegSign</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">724578 ms</span>
+                <span class="method-start">679773 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Negs</span>
-                <span class="method-start">727553 ms</span>
+                <span class="method-start">683125 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">755361 ms</span>
+                <span class="method-start">712512 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0011__NegLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">755650 ms</span>
+                <span class="method-start">712903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">neLog</span>
-                <span class="method-start">757526 ms</span>
+                <span class="method-start">715791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">780855 ms</span>
+                <span class="method-start">736288 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0012__Negcheckout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">781240 ms</span>
+                <span class="method-start">736795 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NeChe</span>
-                <span class="method-start">783966 ms</span>
+                <span class="method-start">739966 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">790455 ms</span>
+                <span class="method-start">748761 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testP1.TC0013__NegativeLoginsTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">791028 ms</span>
+                <span class="method-start">749664 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NLoginT(Vignesh123@gmail, Vignesh@)</span>
-                <span class="method-start">793410 ms</span>
+                <span class="method-start">752530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">820645 ms</span>
+                <span class="method-start">779252 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">820918 ms</span>
+                <span class="method-start">779610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NLoginT(Vignesh123gmail.com, Vignesh)</span>
-                <span class="method-start">824078 ms</span>
+                <span class="method-start">782730 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">864303 ms</span>
+                <span class="method-start">809593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
-                <span class="method-start">864522 ms</span>
+                <span class="method-start">809855 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NLoginT(Vignesh123.com, Vignesh123)</span>
-                <span class="method-start">867398 ms</span>
+                <span class="method-start">812906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">904295 ms</span>
+                <span class="method-start">841824 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testP1.TC0014__NegativeCreateacc</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
+                <span class="method-start">842455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NegativeTest(vignesh, s, vign.com, Vig123, Vig, 87685439)</span>
+                <span class="method-start">845233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">874371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
+                <span class="method-start">874713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NegativeTest(S, V, vign@gmail, Vig123, Vig, 876589)</span>
+                <span class="method-start">878310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">902984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launcbrowser(https://www.bestbuy.com/, chrome)</span>
+                <span class="method-start">903361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NegativeTest(vignesh, S, Vignesh, Vig123, Vig123, 12)</span>
+                <span class="method-start">906248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">932016 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

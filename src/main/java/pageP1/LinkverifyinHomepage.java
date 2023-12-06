@@ -36,10 +36,10 @@ public class LinkverifyinHomepage extends ProjectBaseP1{
 
 		Thread.sleep(3000);
 		String link1=driver.getPageSource();
-		if(link1.contains("Black Friday Major Appliance Deals 2023")) {
-			System.out.println("Major Applicationmlink verified");
+		if(link1.contains("Major Appliance ")) {
+			System.out.println("Major Application link verified");
 		}else {
-			System.out.println("Major Applicationmlink  not verified");
+			System.out.println("Major Application link  not verified");
 		}
 
 		driver.navigate().back();

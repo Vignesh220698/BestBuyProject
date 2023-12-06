@@ -112,5 +112,14 @@ public class HomepageP1 extends ProjectBaseP1{
 		
 	}
 
+	
+	public  NegativeSignupsTest NegsignTest() throws InterruptedException {
+		Thread.sleep(7000);
+		click(accountbutton);
+		click(createaccountbutton);
+		return new NegativeSignupsTest(driver);
+		
+	}
+
 
 }
